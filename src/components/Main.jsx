@@ -4,7 +4,7 @@ import Home from "./Home";
 
 const Main = () => {
     return (
-        <div className="flex">
+        <div className="flex w-full relative">
             <Menu></Menu>
             <Home></Home>
         </div>
