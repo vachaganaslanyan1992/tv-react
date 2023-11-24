@@ -1,13 +1,11 @@
 import React from "react";
-import Menu from "./components/Menu";
-import Home from "./components/Home";
 import './index.css';
+import Main from "./components/Main";
 
 function App() {
     return (
-        <div className="App">
-            <Menu></Menu>
-            <Home></Home>
+        <div className="App flex">
+            <Main />
         </div>
     );
 }
